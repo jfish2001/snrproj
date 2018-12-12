@@ -4,11 +4,6 @@ import (
 	"bufio"
 	"fmt"
 	"io"
-
-	"github.com/skatsuta/monkey-interpreter/eval"
-	"github.com/skatsuta/monkey-interpreter/lexer"
-	"github.com/skatsuta/monkey-interpreter/object"
-	"github.com/skatsuta/monkey-interpreter/parser"
 )
 
 const prompt = ">> "

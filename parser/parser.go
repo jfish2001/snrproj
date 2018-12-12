@@ -3,10 +3,6 @@ package parser
 import (
 	"fmt"
 	"strconv"
-
-	"github.com/skatsuta/monkey-interpreter/ast"
-	"github.com/skatsuta/monkey-interpreter/lexer"
-	"github.com/skatsuta/monkey-interpreter/token"
 )
 
 const (

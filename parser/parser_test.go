@@ -3,9 +3,6 @@ package parser
 import (
 	"fmt"
 	"testing"
-
-	"github.com/skatsuta/monkey-interpreter/ast"
-	"github.com/skatsuta/monkey-interpreter/lexer"
 )
 
 func TestLetStatements(t *testing.T) {

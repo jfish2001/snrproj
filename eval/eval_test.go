@@ -3,10 +3,6 @@ package eval
 import (
 	"strings"
 	"testing"
-
-	"github.com/skatsuta/monkey-interpreter/lexer"
-	"github.com/skatsuta/monkey-interpreter/object"
-	"github.com/skatsuta/monkey-interpreter/parser"
 )
 
 func testEval(t *testing.T, input string) object.Object {

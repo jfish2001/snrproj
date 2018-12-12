@@ -2,9 +2,6 @@ package eval
 
 import (
 	"fmt"
-
-	"github.com/skatsuta/monkey-interpreter/ast"
-	"github.com/skatsuta/monkey-interpreter/object"
 )
 
 var (

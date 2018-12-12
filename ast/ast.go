@@ -3,8 +3,6 @@ package ast
 import (
 	"bytes"
 	"strings"
-
-	"github.com/skatsuta/monkey-interpreter/token"
 )
 
 // Node represents an AST node.

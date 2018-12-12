@@ -1,7 +1,5 @@
 package lexer
 
-import "github.com/skatsuta/monkey-interpreter/token"
-
 // Lexer represents a lexer for Monkey programming language.
 type Lexer interface {
 	// NextToken returns a next token.

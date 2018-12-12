@@ -5,8 +5,6 @@ import (
 	"hash/fnv"
 	"strconv"
 	"strings"
-
-	"github.com/skatsuta/monkey-interpreter/ast"
 )
 
 // Type is a type of objects.
