@@ -103,7 +103,7 @@ var builtins = map[string]*object.Builtin{
 		},
 	},
 
-	"bubbles": {
+	"bubbles": &object.builtins {
 		Fn: func(args ...object.Object) object.Object {
 			for _, arg := range args {
 				fmt.Println(arg.Inspect())
