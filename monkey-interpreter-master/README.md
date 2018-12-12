@@ -126,7 +126,7 @@ one
 three
 >> push(myArray, "four")
 [one, two, three, four]
->> bubbles("Hello World")
+>> puts("Hello World")
 Hello World
 nil
 ```

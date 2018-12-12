@@ -3,7 +3,7 @@ package eval
 import (
 	"fmt"
 
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/object"
+	"github.com/skatsuta/monkey-interpreter/object"
 )
 
 var builtins = map[string]*object.Builtin{
@@ -103,7 +103,7 @@ var builtins = map[string]*object.Builtin{
 		},
 	},
 
-	"bubbles": {
+	"puts": {
 		Fn: func(args ...object.Object) object.Object {
 			for _, arg := range args {
 				fmt.Println(arg.Inspect())

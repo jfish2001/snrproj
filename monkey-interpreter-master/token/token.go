@@ -83,12 +83,12 @@ type Token struct {
 
 // Language keywords
 var keywords = map[string]Type{
-	"fin":     FUNCTION,
+	"fn":     FUNCTION,
 	"let":    LET,
-	"catch":   TRUE,
-	"darn":  FALSE,
-	"cast":     IF,
-	"reel":   ELSE,
+	"true":   TRUE,
+	"false":  FALSE,
+	"if":     IF,
+	"else":   ELSE,
 	"return": RETURN,
 }
 

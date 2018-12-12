@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/lexer"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/object"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/parser"
+	"github.com/skatsuta/monkey-interpreter/lexer"
+	"github.com/skatsuta/monkey-interpreter/object"
+	"github.com/skatsuta/monkey-interpreter/parser"
 )
 
 func testEval(t *testing.T, input string) object.Object {
@@ -387,8 +387,8 @@ func TestBuiltinFunctions(t *testing.T) {
 		{"push([1, 2], 3)", []int64{1, 2, 3}},
 		{"push([])", "wrong number of arguments. want=2, got=1"},
 		{"push(1, 2)", "first argument to `push` must be Array, got Integer"},
-		// bubbles
-		{"bubbles(1)", nil},
+		// puts
+		{"puts(1)", nil},
 	}
 
 	for _, tt := range tests {

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/eval"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/lexer"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/object"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/parser"
+	"github.com/skatsuta/monkey-interpreter/eval"
+	"github.com/skatsuta/monkey-interpreter/lexer"
+	"github.com/skatsuta/monkey-interpreter/object"
+	"github.com/skatsuta/monkey-interpreter/parser"
 )
 
 const prompt = ">> "
@@ -19,8 +19,7 @@ func Start(in io.Reader, out io.Writer) {
 	env := object.NewEnvironment()
 
 	for {
-		fmt.Print("Hello! This is the Fisher programming language!")
-		fmt.Println("Feel free to type in commands")
+		fmt.Print(prompt)
 		if !scanner.Scan() {
 			return
 		}

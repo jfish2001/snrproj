@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/ast"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/lexer"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/token"
+	"github.com/skatsuta/monkey-interpreter/ast"
+	"github.com/skatsuta/monkey-interpreter/lexer"
+	"github.com/skatsuta/monkey-interpreter/token"
 )
 
 const (

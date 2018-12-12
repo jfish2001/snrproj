@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/ast"
+	"github.com/skatsuta/monkey-interpreter/ast"
 )
 
 // Type is a type of objects.
