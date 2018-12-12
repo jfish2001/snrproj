@@ -19,7 +19,8 @@ func Start(in io.Reader, out io.Writer) {
 	env := object.NewEnvironment()
 
 	for {
-		fmt.Print(prompt)
+		fmt.Print("Hello! This is the Fisher programming language!")
+		fmt.Println("Feel free to type in commands")
 		if !scanner.Scan() {
 			return
 		}
