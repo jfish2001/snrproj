@@ -1,5 +1,7 @@
 package lexer
 
+import "github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/token"
+
 // Lexer represents a lexer for Monkey programming language.
 type Lexer interface {
 	// NextToken returns a next token.

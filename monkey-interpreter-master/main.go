@@ -6,6 +6,12 @@ import (
 	"io"
 	"io/ioutil"
 	"os"
+
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/eval"
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/lexer"
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/object"
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/parser"
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/repl"
 )
 
 func main() {

@@ -3,6 +3,9 @@ package parser
 import (
 	"fmt"
 	"testing"
+
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/ast"
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/lexer"
 )
 
 func TestLetStatements(t *testing.T) {

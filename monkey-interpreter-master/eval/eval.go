@@ -2,6 +2,9 @@ package eval
 
 import (
 	"fmt"
+
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/ast"
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/object"
 )
 
 var (

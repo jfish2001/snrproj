@@ -3,7 +3,7 @@ package eval
 import (
 	"fmt"
 
-	
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/object"
 )
 
 var builtins = map[string]*object.Builtin{

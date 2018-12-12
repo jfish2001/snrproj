@@ -3,6 +3,10 @@ package parser
 import (
 	"fmt"
 	"strconv"
+
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/ast"
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/lexer"
+	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/token"
 )
 
 const (
