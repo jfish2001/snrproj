@@ -60,13 +60,13 @@ const (
 	RBRACKET = "]"
 
 	// FUNCTION is a token type for functions.
-	FUNCTION = "FUNCTION"
+	FUNCTION = "fin"
 	// LET is a token type for lets.
 	LET = "LET"
 	// TRUE is a token type for true.
-	TRUE = "TRUE"
+	TRUE = "catch"
 	// FALSE is a token type for false.
-	FALSE = "FALSE"
+	FALSE = "darn"
 	// IF is a token type for if.
 	IF = "IF"
 	// ELSE is a token type for else.
