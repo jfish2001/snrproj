@@ -7,17 +7,17 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/eval"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/lexer"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/object"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/parser"
-	"github.com/jfish2001/snrproj/tree/master/monkey-interpreter-master/repl"
+	"github.com/skatsuta/monkey-interpreter/eval"
+	"github.com/skatsuta/monkey-interpreter/lexer"
+	"github.com/skatsuta/monkey-interpreter/object"
+	"github.com/skatsuta/monkey-interpreter/parser"
+	"github.com/skatsuta/monkey-interpreter/repl"
 )
 
 func main() {
 	// Start Monkey REPL
 	if len(os.Args) == 1 {
-		fmt.Println("This is the Fisher programming language!")
+		fmt.Println("This is the Monkey programming language!")
 		fmt.Println("Feel free to type in commands")
 		repl.Start(os.Stdin, os.Stdout)
 		return
