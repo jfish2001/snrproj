@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/skatsuta/monkey-interpreter/token"
+	"github.com/jfish2001/snrproj/token"
 )
 
 // Node represents an AST node.

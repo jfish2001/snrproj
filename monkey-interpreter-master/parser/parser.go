@@ -6,7 +6,7 @@ import (
 
 	"github.com/skatsuta/monkey-interpreter/ast"
 	"github.com/skatsuta/monkey-interpreter/lexer"
-	"github.com/skatsuta/monkey-interpreter/token"
+	"github.com/jfish2001/snrproj/token"
 )
 
 const (
